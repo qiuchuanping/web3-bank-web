@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url('./bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+
+  background-color: rgba(60, 40, 20, 0.6); 
+  border: 1px solid #555;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  width: 600px;
+  height: auto;
+  max-height: 600px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+.subtitle {
+  font-size: 0.8em; 
+  color: red;
+  margin-top: -10px; 
+  margin-bottom: 20px;
+}
+
+.operator-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.wallet-address {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.tab-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #555;
+}
+
+.tab-nav button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.tab-nav button:hover {
+  background-color: rgba(0, 123, 255, 0.3);
+}
+
+.tab-nav button.active {
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  top: 2px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tab-content {
+  text-align: center;
+  min-height: 150px;
+}
+
+.input-field {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.balance-display {
+  color: white;
+  margin-top: 10px;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px; 
+}
+
+.wallet-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.wallet-address {
+  font-size: inherit; 
+  margin: 0; 
+}
+
+.approve-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.approve-display {
+  color: white;
+  margin-top: 28px;
+}
+
+.status {
+  font-size: 0.8em; 
+  color: red;
+  margin-bottom: -20px;
+}
+
+.connect-balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 70%; /* 左边占70%宽度 */
+}
+
+.right {
+  width: 30%; /* 右边占30%宽度 */
+}
