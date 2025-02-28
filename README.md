@@ -30,6 +30,56 @@
 - **智能合约**：Solidity，编写 BANKABI 和 TOKENABI 智能合约，分别处理银行相关操作和代币授权操作。
 
 #### 环境搭建
+- 环境准备，Node.js 和 Git 
+
+```
+C:\Users\admin>node -v
+v18.20.4
+
+C:\Users\admin>npm -v
+10.7.0
+
+C:\Users\admin>git -v
+git version 2.38.1.windows.1
+```
+
+- 修改npm镜像源
+
+```
+C:\Users\admin>npm config set registry https://registry.npmmirror.com/
+```
+
+- 运行项目
+
+```
+# 进入工作目录
+C:\Users\admin>cd E:\workspace
+
+# 克隆项目到本地
+E:\workspace>git clone https://github.com/qiuchuanping/web3-bank.git
+
+# 进入项目目录
+E:\workspace>cd web3-bank
+# 安装web3
+E:\workspace\web3-bank>npm install web3
+
+# 安装@openzeppelin/contracts
+E:\workspace\web3-bank>npm install @openzeppelin/contracts
+
+# 安装
+E:\workspace\web3-bank>npm install
+
+# 运行
+E:\workspace\web3-bank>npm run start
+```
+
 
 #### 效果展示
-
+- **授权页**
+![](https://raw.githubusercontent.com/qiuchuanping/web3-bank/main/images/1.png)
+- **存钱页**
+![](https://raw.githubusercontent.com/qiuchuanping/web3-bank/main/images/2.png)
+- **取钱页**
+![](https://raw.githubusercontent.com/qiuchuanping/web3-bank/main/images/3.png)
+- **转账页**
+![](https://raw.githubusercontent.com/qiuchuanping/web3-bank/main/images/4.png)
