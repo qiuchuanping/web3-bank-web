@@ -8,6 +8,8 @@
 
 **课程B站地址：**  https://space.bilibili.com/1237993385/lists/4116777?type=season 
 
+![](https://raw.githubusercontent.com/qiuchuanping/web3-bank/main/images/5.png)
+
 该项目没有采用仁科老师的前端，作者本是后端开发，前端着实脑壳有点痛，好在仁科老师推荐的在VS Code中集成豆包的MARSCODE AI插件，前端React编写就相当丝滑了。
 
 该项目在仁科老师教程的基础上增加了授权与授权余额查询功能，不用再跳到remix中去完成授权操作，背景图则是通过阿里的通义文生图制作，效果不错。
@@ -16,9 +18,13 @@
 
 跟随仁科老师的课程，实现了两个智能合约的开发，一个是代币智能合约，ZeroERC20Token.sol，一个是银行智能合约，Bank.sol；并通过Remix+小狐狸Metamask钱包发布在了以太坊Sepolia测试链上。
 
-代币合约地址：0x4609C85cB7c891fEFe1514B3eBc58a49eB276772   name:ZERO  symbol:ZTH
+**代币合约地址**：0x4609C85cB7c891fEFe1514B3eBc58a49eB276772   
 
-银行合约地址：0x7b802382Be81d54B7813c021618BCAD2683C9a33
+**代币名称**：ZERO  
+
+**符号**：ZTH
+
+**银行合约地址**：0x7b802382Be81d54B7813c021618BCAD2683C9a33
 
 再次感谢仁科老师的奉献！
 
