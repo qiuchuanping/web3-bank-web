@@ -78,7 +78,7 @@ body {
 }
 
 .tab-nav button.active {
-  background-color: #007BFF;
+  background-color: hsl(266, 100%, 50%);
   color: white;
   border-radius: 5px 5px 0 0;
   position: relative;
