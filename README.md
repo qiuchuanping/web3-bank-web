@@ -6,7 +6,7 @@
 
 该项目是作者入坑WEB3的首个练手项目，在学习了B站UP主**IT老炮-仁科**的《7天学会WEB3开发 从0到1开发你的第一个DAPP》系列课程后手撸的项目。
 
-**课程B站地址：**https://space.bilibili.com/1237993385/lists/4116777?type=season 
+**课程B站地址：**  https://space.bilibili.com/1237993385/lists/4116777?type=season 
 
 该项目没有采用仁科老师的前端，作者本是后端开发，前端着实脑壳有点痛，好在仁科老师推荐的在VS Code中集成豆包的MARSCODE AI插件，前端React编写就相当丝滑了。
 
@@ -33,44 +33,35 @@
 - 环境准备，Node.js 和 Git 
 
 ```
-C:\Users\admin>node -v
+node -v
 v18.20.4
 
-C:\Users\admin>npm -v
+npm -v
 10.7.0
 
-C:\Users\admin>git -v
-git version 2.38.1.windows.1
+git -v
 ```
 
 - 修改npm镜像源
 
 ```
-C:\Users\admin>npm config set registry https://registry.npmmirror.com/
+npm config set registry https://registry.npmmirror.com/
 ```
 
 - 运行项目
 
 ```
-# 进入工作目录
-C:\Users\admin>cd E:\workspace
-
-# 克隆项目到本地
-E:\workspace>git clone https://github.com/qiuchuanping/web3-bank.git
+# 进入工作目录,克隆项目到本地
+git clone https://github.com/qiuchuanping/web3-bank.git
 
 # 进入项目目录
-E:\workspace>cd web3-bank
-# 安装web3
-E:\workspace\web3-bank>npm install web3
-
-# 安装@openzeppelin/contracts
-E:\workspace\web3-bank>npm install @openzeppelin/contracts
+cd web3-bank
 
 # 安装
-E:\workspace\web3-bank>npm install
+npm install
 
 # 运行
-E:\workspace\web3-bank>npm run start
+npm run start
 ```
 
 
