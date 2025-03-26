@@ -8,7 +8,7 @@
 
 **课程B站地址：**  https://space.bilibili.com/1237993385/lists/4116777?type=season 
 
-![](https://raw.githubusercontent.com/qiuchuanping/web3-bank/main/images/5.png)
+![](https://raw.githubusercontent.com/qiuchuanping/web3-bank-web/main/images/5.png)
 
 该项目没有采用仁科老师的前端，作者本是后端开发，前端着实脑壳有点痛，好在仁科老师推荐的在VS Code中集成豆包的MARSCODE AI插件，前端React编写就相当丝滑了。
 
