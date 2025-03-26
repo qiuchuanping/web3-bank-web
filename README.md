@@ -73,10 +73,10 @@ npm run start
 
 #### 效果展示
 - **授权页**
-![](https://raw.githubusercontent.com/qiuchuanping/web3-bank/main/images/1.png)
+![](https://raw.githubusercontent.com/qiuchuanping/web3-bank-web/main/images/1.png)
 - **存钱页**
-![](https://raw.githubusercontent.com/qiuchuanping/web3-bank/main/images/2.png)
+![](https://raw.githubusercontent.com/qiuchuanping/web3-bank-web/main/images/2.png)
 - **取钱页**
-![](https://raw.githubusercontent.com/qiuchuanping/web3-bank/main/images/3.png)
+![](https://raw.githubusercontent.com/qiuchuanping/web3-bank-web/main/images/3.png)
 - **转账页**
-![](https://raw.githubusercontent.com/qiuchuanping/web3-bank/main/images/4.png)
+![](https://raw.githubusercontent.com/qiuchuanping/web3-bank-web/main/images/4.png)
